@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyron's First Personal Site | v1.0</title>
+  </head>
+  <body>
+    <h1>Hi!</h1>
+    <h2>My name is Tyron Ingram.</h2>
+    <h3>Front End Engineer in the making.</h3>
+    <p>
+      This is just a little test. Personal Website v1.0 - if you will.
+      <br />Here is a picture of my cat.
+    </p>
+    <img
+      src="/justHTML/thecat.JPG"
+      alt="Purzel - the cat"
+      width="300"
+      height="200"
+    />
+    <p>
+      Anyway... I`ll keep this site as a reminder - where it started and where
+      it got me.
+    </p>
+    <h4>Thanks, cya!</h4>
+  </body>
+</html>
