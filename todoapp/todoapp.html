@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple to do list | by Tyron Ingram</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="todoapp.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+   <!-- Favicon -->
+        <link rel="icon" href="/res/favicon.png" type="image/png" />
+    <!-- JS -->
+    <script src="./todoapp.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="todo-container">
+        <div class="input">
+          <input type="text" name="company" placeholder="Add new task..." />
+          <input type="submit" value="+" />
+        </div>
+        <ul class="task-list">
+          <!-- <li class="task-list-item">
+            <img src="/todoapp/res-todo/unchecked.png" alt="" />
+            <p class="task-list-task">Clean kitchen</p>
+            <img src="/todoapp/res-todo/cross.png" alt="" />
+          </li>
+          <li class="task-list-item">
+            <img src="/todoapp/res-todo/checked.png" alt="" />
+            <p class="task-list-task checked">Clean kitchen</p>
+            <img src="/todoapp/res-todo/cross.png" alt="" />
+          </li> -->
+
+      </div>
+      <div class="container">
+        <h2>Simple to do list</h2>
+        <p>by Tyron Ingram</p>
+        <ul class="explainer">
+          <li>
+            <img src="/todoapp/res-todo/plus.png" alt="" />
+            <p>Add new tasks.</p>
+          </li>
+          <li>
+            <img src="./res-todo/checked.png" alt="" class="checked" />
+            <p>Mark completed tasks.</p>
+          </li>
+          <li>
+            <img src="./res-todo/cross.png" alt="" />
+            <p>Delete completed tasks.</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
